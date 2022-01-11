@@ -9,6 +9,22 @@ body{
 	font-weight: normal;
 	font-style: normal;
 }
+
+/* 圖片游標放大移動 */
+#button_zoomout{
+			width: auto;
+			height: auto;
+			margin: 10px auto;
+			overflow: hidden;
+		}
+		#button_zoomout img{
+			cursor: pointer;
+			transition: all 0.6s;
+		}
+		#button_zoomout img:hover{
+			transform: scale(0.9);
+		}
+
 /*********************************************************************************/
 /* Table                                                                         */
 /*********************************************************************************/
