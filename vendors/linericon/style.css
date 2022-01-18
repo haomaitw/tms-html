@@ -10,6 +10,96 @@ body{
 	font-style: normal;
 }
 
+/* Changelog 使用區塊 */
+code {
+    font-family: monospace,'Noto Sans TC',sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    background: #f8f8f8;
+    border-radius: 3px;
+}
+
+/* 圖片游標放大移動 */
+#button_zoomout{
+			width: auto;
+			height: auto;
+			margin: 10px auto;
+			overflow: hidden;
+		}
+		#button_zoomout img{
+			cursor: pointer;
+			transition: all 0.6s;
+		}
+		#button_zoomout img:hover{
+			transform: scale(0.9);
+		}
+
+/*********************************************************************************/
+/* Table                                                                         */
+/*********************************************************************************/
+
+table { 
+  border:1px solid #000; 
+  font-size:16px; 
+  width:200px;
+  border:1px solid #000;
+  text-align:left;
+  border-collapse:collapse;
+  font-size: 14pt;
+  font-weight: normal;
+  width:100%;
+	
+} 
+
+th { 
+  background-color: #717171;
+  padding:15px;
+  border:1px solid #000;
+  font-size: 14pt;
+  color:#fff;
+  font-weight: normal;
+  table-layout: fixed;
+	
+} 
+td { 
+ background-color: #FFFFFF;
+  border:1px solid #000;
+  font-size: 14pt;
+  padding:10px;
+  width:20%;
+} 
+
+/* 文字格式 */
+    footer_title
+	{
+		font-family: 'Noto Sans TC', sans-serif;
+		color:#fff;
+		font-size: 15pt;
+		line-height: 2.4em;
+	}
+    input1
+	{
+		font-family: 'Noto Sans TC', sans-serif;
+		font-size: 12pt;
+		line-height: 2.4em;
+	}
+
+	input2big
+	{
+		font-family: 'Noto Sans TC', sans-serif;
+		font-size: 14pt;
+		line-height: 2.4em;
+	}
+
+	inputtitle
+	{
+		font-family: 'Noto Sans TC', sans-serif; 
+		font-weight: bold;
+		font-size: 14pt;
+		line-height: 2.3em;
+		color: #880000;
+	}
+
 /* 背景圖格式 */
 #bannerimage-index {
   width: 100%;
@@ -18,6 +108,28 @@ body{
   background-position: center center;
   background-size: cover;
   height: 405px;
+  background-color: black;
+  background-position: center;
+}
+
+#bannerimage-narrtive {
+  width: 100%;
+  background-image: url("../../img/narrtive-zh/banner.png");
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 200px;
+  background-color: black;
+  background-position: center;
+}
+
+#bannerimage-person {
+  width: 100%;
+  background-image: url("../../img/narrtive-zh/banner-2.png");
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 200px;
   background-color: black;
   background-position: center;
 }
@@ -124,6 +236,21 @@ body{
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+
+
+.image.full
+			{
+				display: block;
+				width: 100%;
+				margin: 0 0 2em 0;
+			}
+
+	p, ul, ol, dl, table
+	{
+		margin-bottom: 1em;
+	}
+
+
 
 .lnr-home:before {
 	content: "\e800";
