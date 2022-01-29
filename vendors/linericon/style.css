@@ -91,6 +91,14 @@ td {
 		line-height: 2.4em;
 	}
 
+    input2black
+	{
+		font-family: 'Noto Sans TC', sans-serif;
+		font-size: 14pt;
+		line-height: 2.4em;
+		color: #7C0D0F;
+	}
+
 	inputtitle
 	{
 		font-family: 'Noto Sans TC', sans-serif; 
@@ -123,9 +131,53 @@ td {
   background-position: center;
 }
 
+#bannerimage-narrtive01 {
+  width: 100%;
+  background-image: url("../../img/index/narr01-banner.png");
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  background-color: black;
+  background-position: center;
+}
+
+#bannerimage-narrtive02 {
+  width: 100%;
+  background-image: url("../../img/index/narr02-banner.png");
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  background-color: black;
+  background-position: center;
+}
+
+#bannerimage-narrtive03 {
+  width: 100%;
+  background-image: url("../../img/index/narr03-banner.png");
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  background-color: black;
+  background-position: center;
+}
+
 #bannerimage-person {
   width: 100%;
   background-image: url("../../img/narrtive-zh/banner-2.png");
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 200px;
+  background-color: black;
+  background-position: center;
+}
+
+#bannerimage-future01 {
+  width: 100%;
+  background-image: url("../../img/index/future01-banner.png");
   background-repeat:no-repeat;
   background-position: center center;
   background-size: cover;
